@@ -1,0 +1,16 @@
+.my-list {
+    background-color: yellow;
+    padding: 8px 24px;
+    width: 300px;
+    text-size-adjust: 30px;
+    border: 1px solid;
+    box-shadow: 0 0 10px 2px #333333;
+}
+
+#date {
+    text-align: center;
+}
+
+ol {
+    margin: 12px;
+}
