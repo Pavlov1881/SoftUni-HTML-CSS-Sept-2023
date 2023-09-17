@@ -1,0 +1,20 @@
+#wrapper {
+    width: 700px;
+    height: 730px;
+    border: 1px solid;
+    padding: 10px 20px;
+    background-color: rgb(128, 244, 244);
+}
+
+.pictures {
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.text {
+    color: blue;
+}
