@@ -1,0 +1,13 @@
+ul > li {
+    color: red;
+}
+
+/* търси параграф след който има друг параграф директно*/
+.adjacent-container p + p{
+    background-color: orange;
+}
+
+/* търси параграф след който има друг параграф, няма значение дали е директно*/
+.adjacent-container p ~ p{
+    background-color: green;
+}
