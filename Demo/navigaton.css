@@ -25,3 +25,23 @@
     background-color: orange;
     color: white;
 }
+
+.main-nav ul ul {
+    display: none;
+}
+
+.main-nav li:hover > ul {
+    display: block;
+    width: 200px;
+    border: 2px solid white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.main-nav  ul ul li:hover > ul {
+    left: initial;
+    top: 0;
+    right: 100%;
+    border: 2px solid orange;
+}
