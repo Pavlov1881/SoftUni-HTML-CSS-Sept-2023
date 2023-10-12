@@ -6,7 +6,8 @@
 .site-header {
     padding: 1em 0;
     position: relative;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  rgb(113, 113, 211);
+    
 }
 
 .site-title {
@@ -28,4 +29,15 @@
     bottom: 50%;
     right: 0;
     transform: translateY(50%);
+}
+
+.site-footer {
+    border-top: 2px solid rgb(113, 113, 211);
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+.site-footer p {
+    margin-top: 0.01em;
+    
 }
