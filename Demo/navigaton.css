@@ -7,8 +7,14 @@
 }
 
 .main-nav li {
-    display: inline-block;
     list-style: none outside;
+    position: relative;
+    display: block;
+}
+
+.main-nav > ul > li {
+    display: inline-block;
+    margin: 0,2em;
 }
 
 .main-nav a {
@@ -21,27 +27,31 @@
     border-radius: 0.3em;
 }
 
+.main-nav li:hover > a,
 .main-nav a:hover {
     background-color: orange;
     color: white;
 }
 
 .main-nav ul ul {
-    display: none;
+display: none;
+}
+
+.main-nav ul ul li {
+   margin-bottom: 0.2em;
 }
 
 .main-nav li:hover > ul {
     display: block;
     width: 200px;
-    border: 2px solid white;
     position: absolute;
     top: 100%;
     left: 0;
+    padding: 2px 0;
 }
 
 .main-nav  ul ul li:hover > ul {
     left: initial;
     top: 0;
     right: 100%;
-    border: 2px solid orange;
 }
