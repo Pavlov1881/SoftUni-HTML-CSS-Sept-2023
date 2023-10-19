@@ -40,7 +40,8 @@ p {
 }
 
 p.content__badge {
-    display: inline-block;
+    display: inline;
+    margin-left: 32%;
     text-align: center;
     background-color: rgb(244, 218, 180);
     color: rgb(158, 104, 3);
