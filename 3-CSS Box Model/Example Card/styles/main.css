@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(194, 196, 201);
+    padding: 12px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* Card component */
+.card{
+    max-width: 320px;
+    border: 2px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.thumbnail{
+    width: 320px;
+    height: 320px;
+}
+
+.thumbnail__img{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+h2, p{
+    text-align: center;
+}
+
+.content__title{
+    padding-bottom: 6px;
+}
+
+.content__badge{
+    background-color: rgb(244, 218, 180);
+    color: rgb(158, 104, 3);
+    margin-top: 0px;
+}
