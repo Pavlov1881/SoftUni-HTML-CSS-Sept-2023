@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Example Card</title>
-        <link rel="stylesheet" href="styles/reset.css" />
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
-    <body>
 
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Card</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main>
+        <h1>Card Example</h1>
+        <article class="card">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D&w=500"
+                    alt="unsplash images" class="thumbnail__img" />
+            </div>
+            <div class="content">
+                <h2 class="content__title">Thomas Winter</h2>
+                <p class="content__badge">Marketing director</p>
+                <h3 class="content_section-title">Projects</h3>
+                <ul class="content__projects" role="list">
+                    <li class="project">
+                        <i class="fa fa-outdent" aria-hidden="true"></i>
+                        <span class="object__name">Flagship design course</span>
+                    </li>
+
+                    <li class="project">
+                        <i class="fa fa-outdent" aria-hidden="true"></i>
+                        <span class="object__name">Social media app</span>
+                    </li>
+                    <i class="fas fa-cat"></i>
+                    <li class="project">
+                        <i class="fa fa-outdent" aria-hidden="true"></i>
+                        <span class="object__name"> Marketing app</span>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        
+    </main>
+</body>
+
 </html>
