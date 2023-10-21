@@ -52,7 +52,7 @@ img {
     color: white;
     background-color: #447bc2;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 17px;
     padding: 5px;
     text-decoration: none;
     padding: 5px 20px;
@@ -68,5 +68,4 @@ h3 {
 
 p {
     padding-bottom: 10px;
-    display: inline-block;
 }
